@@ -9,6 +9,21 @@
     </div>
     <div class="col-lg-9">
       <p>Encontraras el listado de peliculas a las que podras hacer un reserva</p>
+      <dt>Titulo de pelicula: </dt>
+      <dd> <%= @movies['name'] %> </dd>
+
+      <dt>Descripcion breve:</dt>
+      <dd> <%= @movies['description'] %></dd>
+
+      <dt>URL de imagen</dt>
+      <dd><%= @movies['url'] %></dd>
+
+      <dt>Dia disponible</dt>
+      <dd><%= @movies['day'] %></dd>
+      </dl>
+      </dl>
+
     </div>
   </div>
 </div>
+
