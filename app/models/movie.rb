@@ -1,4 +1,5 @@
 class Movie < ApplicationRecord
+  has_many :bookings
   def self.search(day)
     if day
       @movie = Movie.find_by(day: day)
