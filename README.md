@@ -1,25 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Es un sistema creacion, edicion, actualizacion y eliminacion de peliculas(Operaciones CRUD).
+Permiter filtran las peliculas por dias de la semana y se espera integrar un sistema de reservas.
 
-Things you may want to cover:
+* Ruby version: ruby 2.6.1p33
+* Rails version: Rails 5.2.4.1
+* Database: Postgresql 10.10
+* Operative System: Linux Ubuntu
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# movie_booking
